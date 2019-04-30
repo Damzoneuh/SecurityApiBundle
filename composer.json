@@ -1,0 +1,16 @@
+{
+  "name": "backndev/security-api-bundle",
+  "description": "Handling user and sessions on an API rest ",
+  "type": "bundle",
+  "require": {
+    "symfony/http-kernel": "3.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\SecurityApiBundle\\": "src/"
+    }
+  },
+  "require-dev": {
+    "symfony/framework-bundle": "3.1.*"
+  }
+}
